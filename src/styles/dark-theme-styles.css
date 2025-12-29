@@ -1,0 +1,67 @@
+/* background pattern for dark is handled in React main App  */
+.wrapper.dark {
+    background-color: #14151C;
+    background-image: url("../assets/images/bg-dark-theme.png")
+}
+
+.wrapper.dark * {
+    color: var(--clr-neutral-200);
+}
+
+/* header */
+.wrapper.dark .main-heading {
+    color: var(--clr-neutral-100);
+}
+
+.wrapper.dark .theme-switcher-btn {
+    background: var(--clr-neutral-700);
+}
+
+.wrapper.dark .counts__count > * {
+    color: var(--clr-neutral-900);
+}
+
+/* input section colors */
+.wrapper.dark .input__textarea {
+    border-color: var(--clr-neutral-700);
+    background: var(--clr-neutral-800);
+}
+.wrapper.dark .input__textarea:hover {
+    background: var(--clr-neutral-700);
+    border-color: var(--clr-neutral-600);
+}
+.wrapper.dark .input__textarea:focus {
+    border-color: var(--clr-blue-500);
+    box-shadow: 0 0 0.625rem 0 var(--clr-blue-400);
+}
+.wrapper.dark .input__textarea.error {
+    border-color: var(--clr-orange-500);
+    box-shadow: 0 0 0.5em 0 var(--clr-orange-500);   
+}
+.wrapper.dark .input__error-text {
+    color: var(--clr-orange-500);
+}
+
+/* checkbox colors */
+.wrapper.dark .checkbox > .indicator {
+    border: 1px solid var(--clr-neutral-200);
+}
+.wrapper.dark .checkbox > input:checked ~ .indicator {
+    background: var(--clr-blue-400);
+}
+
+.wrapper.dark .input__character-limit-value {
+    border: 1px solid var(--clr-neutral-600);
+    caret-color: var(--clr-neutral-200);
+}
+
+/* letter density section */
+.wrapper.dark .ld__indicator {
+    background: var(--clr-neutral-800);
+}
+.wrapper.dark .ld__indicator-fill {
+    background: var(--clr-blue-400);
+}
+.wrapper.dark .ld__show-more-btn > img {
+    filter: invert(0);
+}
