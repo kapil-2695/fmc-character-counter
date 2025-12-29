@@ -61,7 +61,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Character Counter App Solution](https://github.com/kapil-2695/fmc-character-counter-app)
+- Solution URL: [Character Counter App Solution](https://github.com/kapil-2695/fmc-character-counter)
 - Live Site URL: [Live Site - Character Counter App](https://character-counter-176.netlify.app)
 
 
