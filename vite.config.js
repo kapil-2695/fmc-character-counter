@@ -8,6 +8,11 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      workbox: {
+        globPatterns: [
+          "**/*.{js,css,html,ico,png,svg,ttf}"
+        ]
+      },
       manifest: {
         name: 'Character Counter',
         short_name: 'Character Counter',
