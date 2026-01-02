@@ -20,7 +20,7 @@ export default function Header() {
             <figure className="header__logo">
                 <img src={logo} alt="character counter logo" />
             </figure>
-            <button className="theme-switcher-btn" onClick={toggleTheme}>
+            <button type="button" className="theme-switcher-btn" onClick={toggleTheme} aria-label="theme switcher button">
                 <img src={themeButtonImage.location} alt={themeButtonImage.alt} />
             </button>
         </header>

@@ -19,12 +19,13 @@ export default function InputOptions() {
             <label className="checkbox">
                 <input
                     type="checkbox" name="excludeSpaces"
+                    id="exclude-spaces-checkbox"
                     onChange={handleChange}
                     checked={options.excludeSpaces}
                 />
-                <figure className="indicator">
+                <span className="indicator">
                     <img src={checkIcon} alt="tick" />
-                </figure>
+                </span>
                 Exclude Spaces
             </label>
 
@@ -32,12 +33,13 @@ export default function InputOptions() {
                 <label className="checkbox">
                     <input
                         type="checkbox" name="characterLimit"
+                        id="set-character-limit-checkbox"
                         onChange={handleChange}
                         checked={options.characterLimit}
                     />
-                    <figure className="indicator">
+                    <span className="indicator">
                         <img src={checkIcon} alt="tick" />
-                    </figure>
+                    </span>
                     Set Character Limit
                 </label>
 
@@ -45,6 +47,7 @@ export default function InputOptions() {
                     <input
                         className="input__character-limit-value" type="number" min="1" step="1" required
                         name="limitValue"
+                        id="set-character-limit-value"
                         onChange={handleChange}
                         value={options.limitValue}
                     />
